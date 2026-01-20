@@ -1,0 +1,1251 @@
+2025-10-29 13:50:08 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\JasonSolis\Documents\AI Integration Plan\CucumberFramework\CucumberFramework\testng.xml] otherwise TestNG may fail or not work as expected.
+2025-10-29 13:50:08 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\Documents\AI Integration Plan\CucumberFramework\CucumberFramework\testng.xml
+
+2025-10-29 13:52:53 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\JasonSolis\Documents\AI Integration Plan\CucumberFramework\CucumberFramework\testng.xml] otherwise TestNG may fail or not work as expected.
+2025-10-29 13:52:54 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\Documents\AI Integration Plan\CucumberFramework\CucumberFramework\testng.xml
+
+2025-10-29 13:52:54 [TestNG-tests-1] WARN  org.testng.internal.Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+2025-10-29 13:54:10 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\JasonSolis\Documents\AI Integration Plan\CucumberFramework\CucumberFramework\testng.xml] otherwise TestNG may fail or not work as expected.
+2025-10-29 13:54:10 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\Documents\AI Integration Plan\CucumberFramework\CucumberFramework\testng.xml
+
+2025-10-29 13:54:22 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Verify and select radio buttons
+2025-10-29 13:54:23 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 13:54:23 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Login
+2025-10-29 13:54:24 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 13:54:24 [TestNG-PoolService-1] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.cssSelector: .ico-register
+2025-10-29 13:54:24 [TestNG-PoolService-2] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Failed to enter text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 13:57:01 [main] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Verify and select radio buttons
+2025-10-29 13:57:02 [main] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 13:57:02 [main] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 13:57:03 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update step: no step running
+2025-10-29 13:57:03 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+2025-10-29 13:57:03 [main] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@type='radio' and @value='F']
+2025-10-29 13:57:03 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update step: no step running
+2025-10-29 13:57:03 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+2025-10-29 13:57:08 [main] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Failed to enter text in element: By.xpath: //input[@id='FirstNames'] - Text: Barbie
+2025-10-29 13:57:09 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update step: no step running
+2025-10-29 13:57:09 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+2025-10-29 13:57:09 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update step: no step running
+2025-10-29 13:57:09 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+2025-10-29 13:58:01 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-10-29 13:58:10 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Login
+2025-10-29 13:58:14 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 13:58:14 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 13:58:16 [TestNG-PoolService-2] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.cssSelector: .ico-login
+2025-10-29 13:58:16 [TestNG-PoolService-1] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.cssSelector: .ico-register
+2025-10-29 13:58:41 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-10-29 13:58:49 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Login
+2025-10-29 14:00:13 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-10-29 14:00:22 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Login
+2025-10-29 14:00:22 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:00:24 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 14:00:26 [TestNG-PoolService-2] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.cssSelector: .ico-login
+2025-10-29 14:00:26 [TestNG-PoolService-1] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.cssSelector: .ico-register
+2025-10-29 14:02:44 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-10-29 14:02:56 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:02:56 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 14:02:56 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:02:57 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:02:59 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:02:59 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:03:00 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:03:01 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:03:01 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:03:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:03:03 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:03:03 [TestNG-PoolService-2] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Failed to click on element: By.xpath: //a[contains(text(), 'Health Book')]
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=141.0.7390.123)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86f64a363930edf4257f1c8d36cf5923, clickElement {id=f.12A6422F007E2689E329414DF9862CD0.d.871F10EC6ADCC0465B51755BCA56F6A1.e.94}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\JASONS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53667}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53667/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (86f64a363930edf4257f1c8d36cf5923)] -> xpath: //a[contains(text(), 'Health Book')]]
+Session ID: 86f64a363930edf4257f1c8d36cf5923
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.cheq.demo_webshop.utils.ElementActionUtils.clickElement(ElementActionUtils.java:26)
+	at com.cheq.demo_webshop.pages.MultipleProductsPage.clickProduct(MultipleProductsPage.java:34)
+	at com.cheq.demo_webshop.stepdefinitions.MultipleProductsStep.user_should_search_and_add_to_cart(MultipleProductsStep.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+2025-10-29 14:03:03 [TestNG-PoolService-2] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 8d183e48-b523-457b-9c45-bc7ecc6bfbe9 not found
+2025-10-29 14:03:04 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:03:04 [TestNG-PoolService-1] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Failed to enter text in element: By.xpath: //input[@id='LastName'] - Text: Joynsons
+2025-10-29 14:03:59 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-10-29 14:04:07 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 14:04:10 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:04:10 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:04:10 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:04:11 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:04:11 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:04:11 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:04:11 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:04:11 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:04:11 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:04:11 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:04:12 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:04:14 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:04:14 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:04:14 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:04:15 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:04:19 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:04:19 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:04:19 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:04:20 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:04:22 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:04:22 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:04:23 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:04:24 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:04:24 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:04:24 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:04:24 [TestNG-PoolService-1] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Failed to click on element: By.xpath: //input[@id='register-button']
+org.openqa.selenium.WebDriverException: Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7bdfcd84f065c92859e5893aa112224b, findElement {using=xpath, value=//input[@id='register-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\JASONS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58258}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58258/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7bdfcd84f065c92859e5893aa112224b
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:499)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:383)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:328)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:432)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2119)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:902)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:455)
+	... 9 more
+2025-10-29 14:08:40 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-10-29 14:08:48 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:08:49 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 14:08:50 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:08:51 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:08:51 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:08:52 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:08:52 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:08:53 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:08:53 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:08:53 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:08:54 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:08:54 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:08:55 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:08:55 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:08:55 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:08:56 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:08:56 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:08:57 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:08:59 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:08:59 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:08:59 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:09:00 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:09:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:09:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:09:03 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:09:03 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:09:03 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:09:03 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:09:22 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\JasonSolis\Documents\AI Integration Plan\CucumberFramework\CucumberFramework\testng.xml] otherwise TestNG may fail or not work as expected.
+2025-10-29 14:09:22 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\Documents\AI Integration Plan\CucumberFramework\CucumberFramework\testng.xml
+
+2025-10-29 14:09:31 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 14:09:31 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:09:32 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:09:33 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:09:33 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:09:35 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:09:35 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:09:36 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:09:36 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:09:36 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:09:37 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:09:37 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:09:37 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:09:38 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:09:38 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:09:38 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:09:39 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:09:59 [TestNG-PoolService-2] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Failed to click on element: By.xpath: //a[contains(text(), 'Health Book')]
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(), 'Health Book')] (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.cheq.demo_webshop.utils.WaitUtil.waitForElementClickable(WaitUtil.java:53)
+	at com.cheq.demo_webshop.utils.ElementActionUtils.clickElement(ElementActionUtils.java:25)
+	at com.cheq.demo_webshop.pages.MultipleProductsPage.clickProduct(MultipleProductsPage.java:34)
+	at com.cheq.demo_webshop.stepdefinitions.MultipleProductsStep.user_should_search_and_add_to_cart(MultipleProductsStep.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8e8d8d38eee21602b2b0de0d12ad76ca, findElement {using=xpath, value=//a[contains(text(), 'Health Book')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\JASONS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59851}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59851/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e8d8d38eee21602b2b0de0d12ad76ca
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 34 more
+2025-10-29 14:11:36 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-10-29 14:11:44 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:11:45 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 14:11:47 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:11:48 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:11:48 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:11:49 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:11:49 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:11:49 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:11:50 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:11:50 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:11:50 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:11:51 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:11:51 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:11:51 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:11:51 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:11:51 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:11:51 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:11:52 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:11:52 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:11:52 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:11:52 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:11:52 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:11:54 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:11:54 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:11:54 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:11:56 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:11:56 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:11:56 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:11:56 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:11:56 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:11:57 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:11:57 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:11:57 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:11:59 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:11:59 [TestNG-PoolService-1] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:12:00 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:12:00 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:12:00 [TestNG-PoolService-1] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid a2c3fc01-b813-401e-8ca5-52938ba99d8f not found
+2025-10-29 14:12:00 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:12:01 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:12:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:12:02 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:12:02 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:12:02 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:12:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:12:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:12:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:12:39 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-10-29 14:12:50 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 14:12:50 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:12:50 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:12:51 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:12:51 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:12:52 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:12:53 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:12:53 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:12:55 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:12:55 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:12:55 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:12:56 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:12:56 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:12:56 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:12:57 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:12:57 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:12:57 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:12:57 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:12:58 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:12:58 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:12:58 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:12:58 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:13:00 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:13:00 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:13:00 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:13:01 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:13:01 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:13:02 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:13:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:13:02 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:13:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:13:03 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:13:03 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:13:05 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:13:05 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:13:06 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:13:06 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:13:06 [TestNG-PoolService-1] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:13:07 [TestNG-PoolService-1] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid d95e9eed-4129-431a-b613-cf9b632c313d not found
+2025-10-29 14:13:09 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:13:09 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:13:10 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:13:10 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:13:10 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:13:10 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:13:10 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:13:10 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:13:24 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-10-29 14:13:33 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:13:35 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 14:13:35 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:13:36 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:13:36 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:13:37 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:13:37 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:13:38 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:13:38 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:13:38 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:13:38 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:13:38 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:13:39 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:13:39 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:13:39 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:13:41 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:13:41 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:13:42 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:13:42 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:13:42 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:13:42 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:13:44 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:13:44 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:13:46 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:13:46 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:13:46 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:13:46 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:13:46 [TestNG-PoolService-1] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:13:47 [TestNG-PoolService-1] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 264b374e-7d74-48e3-9bf5-c30839bb3768 not found
+2025-10-29 14:13:52 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:13:52 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:13:52 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:13:54 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:13:55 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:13:55 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:13:55 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:13:55 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:13:57 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:13:57 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:13:57 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:13:58 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:13:59 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:13:59 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:14:01 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:14:01 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:14:01 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:14:01 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:14:14 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-10-29 14:14:20 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 14:14:22 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:14:23 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:14:24 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:14:24 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:14:24 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:14:24 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:14:24 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:14:25 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:14:31 [TestNG-PoolService-1] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:14:31 [TestNG-PoolService-1] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid c3c78ab1-6457-45fc-b9e4-0ef2d4438d1d not found
+2025-10-29 14:14:36 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:14:36 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:14:37 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:14:39 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:14:42 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:14:43 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:14:43 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:14:43 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:14:45 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:14:46 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:14:46 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:14:46 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:14:48 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:14:48 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:14:50 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:14:50 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:14:50 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:14:50 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:14:56 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:14:56 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:14:56 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:14:57 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:14:58 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:14:58 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:14:59 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:15:00 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:15:01 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:15:01 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:15:01 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:15:01 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:15:03 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:15:03 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:15:04 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:15:05 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:15:05 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:15:05 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:15:19 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-10-29 14:15:26 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:15:26 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:15:30 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 14:15:30 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:15:30 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:15:31 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:15:31 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:15:31 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:16:19 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-10-29 14:16:27 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 14:16:27 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Registerae
+2025-10-29 14:16:29 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Registers
+2025-10-29 14:16:30 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:16:30 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:16:30 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:16:31 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:16:31 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:16:31 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:16:31 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:16:31 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:16:31 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:16:31 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:16:31 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:16:31 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:16:32 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:16:32 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:16:32 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:16:32 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:16:32 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:16:32 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:16:32 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:16:32 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:16:32 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:16:33 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:16:33 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:16:34 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:16:39 [TestNG-PoolService-3] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:16:39 [TestNG-PoolService-1] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:16:39 [TestNG-PoolService-3] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid dcd27282-93e4-476d-9b0f-106df4dc85c0 not found
+2025-10-29 14:16:39 [TestNG-PoolService-1] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 142dbc93-57bc-4f27-8aac-fcf56844528d not found
+2025-10-29 14:16:39 [TestNG-PoolService-2] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:16:39 [TestNG-PoolService-2] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 5c2dd62c-7145-4e67-b5a6-9259f919eef4 not found
+2025-10-29 14:16:44 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Registerer
+2025-10-29 14:16:45 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:16:46 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:16:46 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:16:46 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:16:46 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:16:47 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:16:47 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:16:48 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:16:53 [TestNG-PoolService-3] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:16:55 [TestNG-PoolService-3] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid f2b75c4b-e8f7-4814-82c5-1fd78e13d90c not found
+2025-10-29 14:17:31 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-10-29 14:17:38 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products2
+2025-10-29 14:17:42 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:17:42 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:17:42 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:17:43 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:17:43 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:17:45 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:17:45 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:17:47 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:17:47 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:17:47 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:17:47 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:17:47 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:17:47 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:17:48 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:17:49 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:17:50 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:17:50 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:17:50 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:17:50 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:17:51 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:17:51 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:17:52 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:17:53 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:17:54 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:17:54 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:17:54 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:17:54 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:17:56 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:17:56 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:17:56 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:17:56 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:17:56 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:17:56 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:17:56 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:17:56 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:18:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products3
+2025-10-29 14:18:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:18:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:18:03 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:18:05 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:18:05 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:18:05 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:18:05 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:18:07 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:18:07 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:18:07 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:18:08 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:18:09 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:18:09 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:18:11 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:18:11 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:18:11 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:18:11 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:18:34 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-10-29 14:18:45 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products2
+2025-10-29 14:18:45 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products3
+2025-10-29 14:18:47 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:18:48 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:18:48 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:18:48 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:18:50 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Verify and select radio buttons
+2025-10-29 14:18:51 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:18:51 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:18:51 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:18:51 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:18:53 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:18:53 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:18:53 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:18:54 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:18:54 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@type='radio' and @value='F']
+2025-10-29 14:18:55 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:18:56 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:18:56 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:18:57 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:18:57 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:18:57 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:18:57 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:18:58 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:18:58 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:18:58 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:18:58 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:18:58 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:18:58 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:18:58 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:19:00 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:19:00 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:19:00 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:19:28 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\JasonSolis\Documents\AI Integration Plan\CucumberFramework\CucumberFramework\testng.xml] otherwise TestNG may fail or not work as expected.
+2025-10-29 14:19:28 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\Documents\AI Integration Plan\CucumberFramework\CucumberFramework\testng.xml
+
+2025-10-29 14:20:18 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-10-29 14:20:50 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Registers
+2025-10-29 14:20:50 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Registerae
+2025-10-29 14:20:51 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:20:51 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 14:20:52 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products2
+2025-10-29 14:20:52 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Registerer
+2025-10-29 14:20:55 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:20:55 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:20:57 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:20:57 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:20:57 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:20:57 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:21:03 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:21:03 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:21:03 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:21:03 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:21:04 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:21:05 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:21:07 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:21:07 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:21:07 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:21:07 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:21:09 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:21:09 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:21:09 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:21:10 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:21:10 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:21:10 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:21:11 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:21:12 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:21:12 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:21:12 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:21:12 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:21:13 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:21:13 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:21:13 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:21:13 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:21:14 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:21:14 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:21:14 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:21:14 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:21:15 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:21:15 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:21:15 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:21:16 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:21:16 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:21:18 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:21:18 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:21:18 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:21:18 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:21:19 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:21:19 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:21:21 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:21:21 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:21:22 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:21:22 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:21:22 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:21:23 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:21:24 [TestNG-PoolService-2] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:21:24 [TestNG-PoolService-4] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:21:24 [TestNG-PoolService-3] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:21:24 [TestNG-PoolService-2] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 1f744074-ddee-4ce9-ba16-634a8140cd86 not found
+2025-10-29 14:21:24 [TestNG-PoolService-1] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:21:25 [TestNG-PoolService-4] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 91fad91c-3b59-4884-bcd0-5404cc1b836b not found
+2025-10-29 14:21:25 [TestNG-PoolService-3] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 12423aa8-c701-44df-ac79-808ef8630f9d not found
+2025-10-29 14:21:25 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:21:25 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:21:25 [TestNG-PoolService-1] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 25cadfae-b0fc-4e58-80da-6e92df9aef12 not found
+2025-10-29 14:21:27 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:21:27 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:21:28 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:21:28 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:21:29 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:21:30 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:21:30 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:21:30 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:21:30 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:21:30 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:21:31 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:21:31 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:21:36 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products3
+2025-10-29 14:21:38 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:21:38 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:21:39 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:21:41 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:21:41 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:21:42 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:21:43 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:21:44 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:21:45 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:21:45 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:21:46 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:21:47 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:21:47 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:21:48 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:21:49 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:21:49 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:21:49 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:24:56 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-10-29 14:25:16 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products2
+2025-10-29 14:25:16 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 14:25:16 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Registerer
+2025-10-29 14:25:16 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Registers
+2025-10-29 14:25:16 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Registerae
+2025-10-29 14:25:17 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:25:20 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:25:20 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:25:20 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:25:20 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:25:20 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:25:20 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:25:21 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:25:22 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:25:23 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:25:23 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:25:24 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:25:24 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:25:24 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:25:24 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:25:25 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:25:25 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:25:26 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:25:26 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:25:26 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:25:26 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:25:26 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:25:27 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:25:27 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:25:27 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:25:27 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonss
+2025-10-29 14:25:27 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:25:27 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:25:27 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn03@last.fm
+2025-10-29 14:25:28 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:25:28 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:25:28 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:25:28 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:25:28 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:25:28 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:25:28 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:25:28 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:25:29 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:25:29 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:25:29 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:25:29 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:25:30 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:25:31 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:25:31 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:25:32 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:25:32 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:25:32 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:25:34 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:25:34 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:25:34 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:25:34 [TestNG-PoolService-3] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:25:34 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:25:34 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:25:34 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:25:34 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:25:35 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:25:36 [TestNG-PoolService-3] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid b4d869c6-e66d-477e-b86b-5cd0dab7b27a not found
+2025-10-29 14:25:36 [TestNG-PoolService-2] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:25:36 [TestNG-PoolService-1] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:25:37 [TestNG-PoolService-2] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 20ba560e-ebfe-4b33-a9c8-7cc68309340f not found
+2025-10-29 14:25:37 [TestNG-PoolService-1] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 52f69ebe-2370-46ff-adf5-bd009b9c7a68 not found
+2025-10-29 14:25:37 [TestNG-PoolService-4] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:25:38 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:25:38 [TestNG-PoolService-4] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 8b759976-14cb-4a65-a74c-35d88742ac2b not found
+2025-10-29 14:25:38 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:25:38 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:25:38 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:25:40 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:25:40 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:25:40 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:25:40 [TestNG-PoolService-6] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:25:41 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:25:42 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:25:42 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:25:42 [TestNG-PoolService-5] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:25:45 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products3
+2025-10-29 14:25:46 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:25:46 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:25:46 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:25:48 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:25:48 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:25:48 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:25:49 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:25:50 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:25:51 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:25:51 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:25:52 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:25:53 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:25:53 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:25:54 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:25:54 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:25:54 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:25:54 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:27:47 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JasonSolis\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-10-29 14:27:57 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 14:27:57 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products2
+2025-10-29 14:28:00 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:28:00 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products3
+2025-10-29 14:28:00 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:28:00 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:28:00 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:28:00 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:28:01 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:28:01 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:28:01 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:28:02 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:28:03 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:28:03 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:28:03 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:28:04 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:28:04 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonsss
+2025-10-29 14:28:04 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn0s3@last.fm
+2025-10-29 14:28:04 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:28:05 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:28:05 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:28:05 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:28:05 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:28:05 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:28:05 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:28:05 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:28:06 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:28:06 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:28:06 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:28:07 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:28:07 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:28:07 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:28:08 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:28:09 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:28:09 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:28:10 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:28:10 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:28:10 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:28:10 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:28:11 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:28:11 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:28:11 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:28:11 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:28:12 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:28:12 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:28:12 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:28:13 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:28:13 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:28:14 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:28:14 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:28:14 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:28:14 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:28:15 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:28:15 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:28:15 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:28:15 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:28:15 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:28:15 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:28:16 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:28:16 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:28:16 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:28:16 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:28:16 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:28:16 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:45:33 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:45:33 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products3
+2025-10-29 14:45:34 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products2
+2025-10-29 14:45:34 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:45:34 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:45:34 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 14:45:34 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:45:35 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:45:35 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:45:35 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:45:35 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:45:37 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:45:37 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:45:37 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:45:38 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:45:39 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:45:39 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:45:40 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonsss
+2025-10-29 14:45:40 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:45:40 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn0s3@last.fm
+2025-10-29 14:45:41 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:45:41 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:45:41 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:45:41 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:45:41 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:45:41 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:45:42 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:45:42 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:45:42 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:45:42 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:45:43 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:45:43 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:45:44 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:45:44 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:45:45 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:45:45 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:45:45 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:45:45 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:45:45 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:45:45 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:45:46 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:45:46 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:45:46 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:45:47 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:45:47 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:45:48 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:45:48 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:45:48 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:45:48 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:45:48 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:45:48 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:45:49 [TestNG-PoolService-1] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:45:50 [TestNG-PoolService-1] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 0f99ea11-a2c6-4b90-a096-bda60d5ab4b1 not found
+2025-10-29 14:45:50 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:45:51 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:45:51 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:45:51 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:45:52 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:45:52 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:45:53 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:45:53 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:45:53 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:45:53 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:45:53 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:45:53 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:46:29 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 14:46:29 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:46:30 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:46:30 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:46:31 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:46:31 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:46:31 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:46:32 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:46:32 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonsss
+2025-10-29 14:46:32 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn0s3@last.fm
+2025-10-29 14:46:32 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:46:32 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:46:32 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:46:32 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:46:32 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:46:33 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:46:34 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:46:35 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:46:35 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:46:35 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:46:35 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:46:37 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:46:37 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:46:38 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:46:38 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:46:38 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:46:38 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:46:39 [TestNG-PoolService-1] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:46:39 [TestNG-PoolService-1] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 65212f68-3723-4853-a0c3-8933f4c56815 not found
+2025-10-29 14:46:45 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products2
+2025-10-29 14:46:45 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:46:46 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:46:47 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:46:48 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products3
+2025-10-29 14:46:48 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:46:48 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:46:48 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:46:48 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:46:49 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:46:49 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:46:50 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:46:51 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:46:51 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:46:51 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:46:51 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:46:51 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:46:51 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:46:51 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:46:52 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:46:53 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:46:53 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:46:53 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:46:53 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:46:53 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:46:54 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:46:55 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:46:55 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:46:55 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:46:55 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:46:55 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:46:55 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:46:57 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:46:57 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:46:57 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:46:57 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:47:15 [main] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 14:47:22 [main] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.cssSelector: .ico-register
+2025-10-29 14:48:08 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:48:29 [TestNG-PoolService-2] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.cssSelector: .ico-login
+2025-10-29 14:48:31 [TestNG-PoolService-2] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 20050313-e5e5-4caa-aa87-0a094ff3117c not found
+2025-10-29 14:49:34 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 14:49:34 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 14:49:35 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:49:36 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 14:49:37 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:49:38 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 14:49:39 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:49:39 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 14:49:39 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonsss
+2025-10-29 14:49:40 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn0s3@last.fm
+2025-10-29 14:49:40 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 14:49:41 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:49:41 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 14:49:41 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:49:42 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 14:49:42 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:49:44 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:49:45 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:49:45 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:49:46 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:49:47 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:49:49 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:49:49 [TestNG-PoolService-1] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 14:49:49 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:49:49 [TestNG-PoolService-1] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid b8899957-d0ae-481a-9d74-713c16cb1843 not found
+2025-10-29 14:49:52 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:49:52 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:49:52 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:49:52 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:50:02 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products2
+2025-10-29 14:50:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products3
+2025-10-29 14:50:02 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:50:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 14:50:03 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:50:03 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 14:50:03 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:50:04 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:50:06 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:50:06 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:50:06 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:50:06 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 14:50:06 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:50:06 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 14:50:07 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:50:07 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:50:08 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:50:08 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:50:08 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 14:50:09 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:50:09 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:50:09 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 14:50:10 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:50:10 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 14:50:11 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:50:11 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 14:50:12 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:50:12 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 14:50:14 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:50:14 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 14:50:14 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:50:14 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:50:14 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 14:50:14 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 14:50:14 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 14:50:14 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 15:49:54 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products2
+2025-10-29 15:49:54 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 15:49:56 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 15:49:57 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products3
+2025-10-29 15:49:57 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 15:49:57 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 15:49:57 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 15:49:57 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 15:49:59 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 15:49:59 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 15:49:59 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 15:50:00 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 15:50:01 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 15:50:02 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 15:50:03 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 15:50:04 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 15:50:05 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 15:50:05 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonsss
+2025-10-29 15:50:05 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 15:50:06 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn0s3@last.fm
+2025-10-29 15:50:06 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 15:50:06 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 15:50:07 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 15:50:07 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 15:50:07 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 15:50:08 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 15:50:08 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 15:50:08 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 15:50:08 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 15:50:09 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 15:50:10 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 15:50:10 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 15:50:11 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 15:50:11 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 15:50:12 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 15:50:13 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 15:50:13 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 15:50:13 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 15:50:14 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 15:50:14 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 15:50:14 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 15:50:14 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 15:50:15 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 15:50:16 [TestNG-PoolService-1] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 15:50:16 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 15:50:16 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 15:50:16 [TestNG-PoolService-1] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 3f7e3dd3-ca0b-48cd-96b3-38609fb6ac9f not found
+2025-10-29 15:50:17 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 15:50:17 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 15:50:18 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 15:50:18 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 15:50:19 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 15:50:19 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 15:50:20 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 15:50:20 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 15:50:20 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 15:50:20 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 15:50:21 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 15:50:21 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 15:50:22 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 15:50:22 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 15:50:22 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 15:50:22 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 15:50:22 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 15:50:22 [TestNG-PoolService-4] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 15:51:39 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
+2025-10-29 15:51:43 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products
+2025-10-29 15:51:43 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
+2025-10-29 15:51:43 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 15:51:45 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
+2025-10-29 15:51:45 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 15:51:45 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Barbie
+2025-10-29 15:51:46 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Joynsonsss
+2025-10-29 15:51:47 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 15:51:47 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: bjoynsossn0s3@last.fm
+2025-10-29 15:51:47 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
+2025-10-29 15:51:47 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
+2025-10-29 15:51:48 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 15:51:49 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 15:51:49 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 15:51:49 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
+2025-10-29 15:51:50 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 15:51:51 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 15:51:52 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 15:51:52 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 15:51:52 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 15:51:54 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 15:51:55 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 15:51:55 [TestNG-PoolService-1] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2025-10-29 15:51:55 [TestNG-PoolService-1] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 727b62a5-c13f-44d8-8d2f-e53d5d8e682b not found
+2025-10-29 15:51:56 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 15:51:56 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 15:51:57 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 15:51:57 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 15:52:00 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products2
+2025-10-29 15:52:03 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Multiple Products3
+2025-10-29 15:52:03 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 15:52:04 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 15:52:05 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-login
+2025-10-29 15:52:05 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: laptop
+2025-10-29 15:52:06 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 15:52:07 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 15:52:07 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 15:52:08 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 15:52:09 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 15:52:09 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), '14.1-inch Laptop')]
+2025-10-29 15:52:09 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 15:52:09 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: book
+2025-10-29 15:52:10 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 15:52:10 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 15:52:11 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 15:52:12 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 15:52:12 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Health Book')]
+2025-10-29 15:52:12 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 15:52:12 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 15:52:12 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.id: small-searchterms - Text: belt
+2025-10-29 15:52:13 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 15:52:13 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@value='Search']
+2025-10-29 15:52:15 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 15:52:15 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //a[contains(text(), 'Casual Golf Belt')]
+2025-10-29 15:52:15 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 15:52:15 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[contains(@id,'add-to-cart-button')]
+2025-10-29 15:52:20 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 15:52:20 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 15:52:20 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 15:52:20 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
+2025-10-29 15:52:21 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //span[@class='cart-label']
+2025-10-29 15:52:21 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1590.00
+2025-10-29 15:52:21 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 10.00
+2025-10-29 15:52:21 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: 1.00
