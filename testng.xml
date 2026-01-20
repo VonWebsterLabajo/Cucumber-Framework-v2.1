@@ -1,0 +1,7 @@
+<suite name="ParallelTests" parallel="tests">
+    <test name="Cucumber Parallel Test">
+        <classes>
+            <class name="com.cheq.demo_webshop.testrunner.TestRunner"/>
+        </classes>
+    </test>
+</suite>
