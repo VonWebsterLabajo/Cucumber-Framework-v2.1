@@ -11,11 +11,20 @@ import io.cucumber.plugin.event.PickleStepTestStep;
 public class StepListener implements ConcurrentEventListener {
     public static String currentStep;
 
+    /**
+    * Default constructor initializes currentStep to an empty string.
+    */
     @Override
     public void setEventPublisher(EventPublisher publisher) {
         publisher.registerHandlerFor(TestStepStarted.class, this::onStepStarted);
     }
 
+    /**
+     * Called when a test step starts. Updates the currentStep variable
+     * with the text of the step if it is a Cucumber PickleStepTestStep.
+     *
+     * @param event the TestStepStarted event
+     */
     private void onStepStarted(TestStepStarted event) {
         // Check if the test step is a Cucumber step
         if (event.getTestStep() instanceof PickleStepTestStep) {
@@ -24,7 +33,5 @@ public class StepListener implements ConcurrentEventListener {
             currentStep = step.getStep().getText();
         }
     }
-
-
 }
  
