@@ -104,7 +104,8 @@ pipeline {
 	     git config user.name "Jenkins CI"
 	
 	     mkdir -p /tmp/deploy-src
-	     rsync -av --exclude='.git' --exclude='.github' ./ /tmp/deploy-src/
+	     cp -r ./* /tmp/deploy-src/
+
 	
 	     git fetch origin
 	     git clean -fdx
