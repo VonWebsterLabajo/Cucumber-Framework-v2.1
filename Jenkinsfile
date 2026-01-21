@@ -87,47 +87,49 @@ pipeline {
     }
    }
   }
-
+  
   stage('Deploy to GitHub Pages') {
-   when {
-    expression { currentBuild.currentResult == 'SUCCESS' }
-   }
-   steps {
-    timeout(time: 15, unit: 'MINUTES') {
-     input message: 'Deploy to GitHub Pages?', ok: 'Deploy'
-    }
-
-    dir("${APP_DIR}") {
-     withCredentials([usernamePassword(credentialsId: 'GITHUB_PAT', usernameVariable: 'GIT_USER', passwordVariable: 'GIT_PASS')]) {
-      sh '''
-       git config user.email "jenkins@local"
-       git config user.name "Jenkins CI"
-
-       mkdir -p /tmp/deploy-src
-       cp -r src/* /tmp/deploy-src/
-
-       git fetch origin
-       git clean -fdx
-
-       if git ls-remote --exit-code --heads origin gh-pages; then
-        git checkout gh-pages || git checkout -b gh-pages origin/gh-pages
-       else
-        git checkout --orphan gh-pages
-       fi
-
-       git rm -rf . || true
-       cp -r /tmp/deploy-src/* .
-
-       git add .
-       git commit -m "CD: Deploy build ${BUILD_NUMBER}" || true
-       git push -f https://${GIT_USER}:${GIT_PASS}@github.com/VonWebsterLabajo/calculator-demo.git gh-pages
-      '''
-     }
-    }
-   }
-  }
+	 when {
+	  expression { currentBuild.currentResult == 'SUCCESS' }
+	 }
+	 steps {
+	  timeout(time: 15, unit: 'MINUTES') {
+	   input message: 'Deploy to GitHub Pages?', ok: 'Deploy'
+	  }
+	
+	  dir("${APP_DIR}") {
+	   withCredentials([usernamePassword(credentialsId: 'GITHUB_PAT', usernameVariable: 'GIT_USER', passwordVariable: 'GIT_PASS')]) {
+	    sh '''
+	     git config user.email "jenkins@local"
+	     git config user.name "Jenkins CI"
+	
+	     mkdir -p /tmp/deploy-src
+	     rsync -av --exclude='.git' --exclude='.github' ./ /tmp/deploy-src/
+	
+	     git fetch origin
+	     git clean -fdx
+	
+	     if git ls-remote --exit-code --heads origin gh-pages; then
+	      git checkout gh-pages || git checkout -b gh-pages origin/gh-pages
+	     else
+	      git checkout --orphan gh-pages
+	     fi
+	
+	     git rm -rf . || true
+	     cp -r /tmp/deploy-src/* .
+	
+	     git add .
+	     git commit -m "CD: Deploy build ${BUILD_NUMBER}" || true
+	     git push -f https://${GIT_USER}:${GIT_PASS}@github.com/VonWebsterLabajo/calculator-demo.git gh-pages
+	
+	     echo "Deployed to GitHub Pages"
+	    '''
+	   }
+	  }
+	 }
+	}
  }
-
+ 
  post {
   always {
    echo 'Pipeline finished'
