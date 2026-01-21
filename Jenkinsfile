@@ -11,7 +11,7 @@ pipeline {
  }
 
  parameters {
-  string(name: 'DATAPROVIDER_THREAD_COUNT', defaultValue: '1')
+  string(name: 'DATAPROVIDER_THREAD_COUNT', defaultValue: '3')
   booleanParam(name: 'HEADLESS', defaultValue: true)
  }
 
