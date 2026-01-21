@@ -28,7 +28,7 @@ pipeline {
    steps {
     echo 'Cloning app and test repositories'
     dir("${APP_DIR}") {
-     git branch: 'staging', url: "${APP_REPO}"
+     git branch: 'main', url: "${APP_REPO}"
     }
     dir("${TEST_DIR}") {
      checkout scm
