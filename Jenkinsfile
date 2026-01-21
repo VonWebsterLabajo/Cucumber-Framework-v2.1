@@ -105,19 +105,19 @@ pipeline {
 	
 	     mkdir -p /tmp/deploy-src
 	     cp -r ./* /tmp/deploy-src/
-
 	
-	     git fetch origin
-	     git clean -fdx
-	
-	     if git ls-remote --exit-code --heads origin gh-pages; then
-	      git checkout gh-pages || git checkout -b gh-pages origin/gh-pages
-	     else
-	      git checkout --orphan gh-pages
-	     fi
-	
-	     git rm -rf . || true
-	     cp -r /tmp/deploy-src/* .
+	  	 git fetch origin
+		
+		 if git show-ref --verify --quiet refs/heads/gh-pages; then
+		   git checkout gh-pages
+		 elif git ls-remote --exit-code --heads origin gh-pages; then
+		   git checkout -b gh-pages origin/gh-pages
+		 else
+		   git checkout --orphan gh-pages
+		 fi
+		
+	 	 git rm -rf . || true
+	 	 cp -r /tmp/deploy-src/* .
 	
 	     git add .
 	     git commit -m "CD: Deploy build ${BUILD_NUMBER}" || true
