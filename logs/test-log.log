@@ -1,32 +1,38 @@
-2026-01-08 14:46:09 [main] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
-2026-01-08 14:46:15 [main] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.cssSelector: .ico-register
-2026-01-08 14:46:39 [main] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
-2026-01-08 14:46:42 [main] ERROR com.cheq.demo_webshop.utils.ElementActionUtils - Element is not displayed: By.cssSelector: .ico-register
-2026-01-08 14:47:08 [main] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
-2026-01-08 14:47:10 [main] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
-2026-01-08 14:47:10 [main] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
-2026-01-08 14:47:11 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update step: no step running
-2026-01-08 14:47:11 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
-2026-01-08 14:47:11 [main] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Teal
-2026-01-08 14:47:11 [main] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Jaytos
-2026-01-08 14:47:12 [main] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: johantealtestingchseq@last.fm
-2026-01-08 14:47:12 [main] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
-2026-01-08 14:47:12 [main] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
-2026-01-08 14:47:12 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update step: no step running
-2026-01-08 14:47:12 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
-2026-01-08 14:47:14 [main] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
-2026-01-08 14:47:14 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update step: no step running
-2026-01-08 14:47:14 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
-2026-01-08 14:47:14 [main] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
-2026-01-08 14:47:14 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update step: no step running
-2026-01-08 14:47:14 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
-2026-01-08 14:50:12 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Register
-2026-01-08 14:50:14 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.cssSelector: .ico-register
-2026-01-08 14:50:15 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.cssSelector: .ico-register
-2026-01-08 14:50:15 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='FirstName'] - Text: Teal
-2026-01-08 14:50:15 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='LastName'] - Text: Jaytos
-2026-01-08 14:50:16 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Email'] - Text: johantealtestinsgchseq@last.fm
-2026-01-08 14:50:16 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='Password'] - Text: wteJWX
-2026-01-08 14:50:16 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='ConfirmPassword'] - Text: wteJWX
-2026-01-08 14:50:17 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //input[@id='register-button']
-2026-01-08 14:50:18 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //div[@class='result' and contains(text(),'Your registration completed')]
+2026-01-21 09:58:12 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Calculator add operation is working
+2026-01-21 09:58:12 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Calculator elements should be visible
+2026-01-21 09:58:13 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //h1[normalize-space()='Simple Calculator App']
+2026-01-21 09:58:13 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //h1[normalize-space()='Simple Calculator App']
+2026-01-21 09:58:13 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //input[@id='a']
+2026-01-21 09:58:13 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //input[@id='b']
+2026-01-21 09:58:13 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Remove value of: By.xpath: //input[@id='a']
+2026-01-21 09:58:13 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //select[@id='op']
+2026-01-21 09:58:13 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //button[@id='compute']
+2026-01-21 09:58:13 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='a'] - Text: 5
+2026-01-21 09:58:13 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //div[@id='result']
+2026-01-21 09:58:13 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Remove value of: By.xpath: //input[@id='b']
+2026-01-21 09:58:13 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='b'] - Text: 6
+2026-01-21 09:58:13 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Option selected: Multiply
+2026-01-21 09:58:13 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //button[@id='compute']
+2026-01-21 09:58:14 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: Result: 30
+2026-01-21 09:58:16 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Calculator dropdown option are selectable
+2026-01-21 09:58:16 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //h1[normalize-space()='Simple Calculator App']
+2026-01-21 09:58:17 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //select[@id='op']
+2026-01-21 10:17:01 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Calculator elements should be visible
+2026-01-21 10:17:01 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Calculator dropdown option are selectable
+2026-01-21 10:17:01 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.hooks.Hooks - Starting scenario: Calculator add operation is working
+2026-01-21 10:17:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //h1[normalize-space()='Simple Calculator App']
+2026-01-21 10:17:02 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //h1[normalize-space()='Simple Calculator App']
+2026-01-21 10:17:02 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //h1[normalize-space()='Simple Calculator App']
+2026-01-21 10:17:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //input[@id='a']
+2026-01-21 10:17:02 [TestNG-PoolService-3] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //select[@id='op']
+2026-01-21 10:17:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //input[@id='b']
+2026-01-21 10:17:02 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Remove value of: By.xpath: //input[@id='a']
+2026-01-21 10:17:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //select[@id='op']
+2026-01-21 10:17:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //button[@id='compute']
+2026-01-21 10:17:02 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='a'] - Text: 5
+2026-01-21 10:17:02 [TestNG-PoolService-2] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Element is displayed: By.xpath: //div[@id='result']
+2026-01-21 10:17:02 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Remove value of: By.xpath: //input[@id='b']
+2026-01-21 10:17:02 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Entered text in element: By.xpath: //input[@id='b'] - Text: 6
+2026-01-21 10:17:03 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Option selected: Multiply
+2026-01-21 10:17:03 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Clicked on element: By.xpath: //button[@id='compute']
+2026-01-21 10:17:03 [TestNG-PoolService-1] INFO  com.cheq.demo_webshop.utils.ElementActionUtils - Text matches expected: Result: 30
