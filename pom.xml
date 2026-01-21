@@ -6,10 +6,14 @@
     <artifactId>CucumberFramework</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>JavaSeleniumCucumber</name>
+    
+    
 
     <!-- Define default properties to avoid unresolved property references -->
     <properties>
         <base.url>http://localhost</base.url>
+        
+  		<log4j.version>2.25.1</log4j.version>
     </properties>
 
     <dependencies>
@@ -18,7 +22,7 @@
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
-            <version>7.20.1</version> <!-- or latest version -->
+            <version>7.20.1</version>
         </dependency>
 
 
@@ -91,14 +95,14 @@
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
-            <version>2.25.1</version>
+            <version>${log4j.version}</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
-            <version>2.25.1</version>
+            <version>${log4j.version}</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->

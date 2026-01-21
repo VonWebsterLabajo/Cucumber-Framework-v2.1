@@ -15,6 +15,14 @@ import org.openqa.selenium.firefox.FirefoxOptions;
  *   - Configurable default inside code (fallback)
  */
 public class WebDriverFactory {
+	
+    /**
+     * Loads a WebDriver instance for the specified browser.
+     *
+     * @param browser the name of the browser ("chrome", "firefox", "edge")
+     * @return the WebDriver instance
+     * @throws IllegalArgumentException if the browser is not supported
+     */
     public static WebDriver loadDriver(String browser) {
         boolean isHeadless = Boolean.parseBoolean(System.getProperty("headless", "false"));
         WebDriver driver;
