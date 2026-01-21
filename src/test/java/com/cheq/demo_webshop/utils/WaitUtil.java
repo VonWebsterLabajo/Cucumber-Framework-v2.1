@@ -94,6 +94,4 @@ public class WaitUtil {
             .ignoring(NoSuchElementException.class);
         return fluentWait.until(driver -> driver.findElement(locator));
     }
-
 }
- 

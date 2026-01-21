@@ -7,6 +7,7 @@ import org.apache.logging.log4j.LogManager;
 * Utility class for obtaining Log4j loggers.
 */
 public class LoggerUtil {
+	
     /**
      * Returns a logger for the specified class.
      *
@@ -16,8 +17,5 @@ public class LoggerUtil {
     public static Logger getLogger(Class<?> clazz) {
     	// Get a logger instance for the given class name
         return LogManager.getLogger(clazz.getName());
-
     }
 }
-
- 

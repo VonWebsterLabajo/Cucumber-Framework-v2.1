@@ -16,7 +16,7 @@ import org.testng.annotations.DataProvider;
                 "com.cheq.demo_webshop.listener.StepListener"
         },
         monochrome = true,
-        tags = "@calc"
+        tags = "@UICalculatorOperationTest or @CalculatorElementsVisibility or @CalculatorDropdown"
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
@@ -47,6 +47,10 @@ public class TestRunner extends AbstractTestNGCucumberTests {
     public Object[][] scenarios() {
         String threadCount = System.getProperty("dataproviderthreadcount", "4");
         System.setProperty("dataproviderthreadcount", threadCount);
+        
+        // Sanity check log thread count
+        System.out.println("Data provider thread count: " + threadCount);
+        
         return super.scenarios();
     }
 }
