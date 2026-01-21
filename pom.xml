@@ -160,6 +160,7 @@
                     <systemPropertyVariables>
                         <!-- Direct Allure results into target/allure-results -->
                         <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+     					<dataproviderthreadcount>${dataproviderthreadcount}</dataproviderthreadcount>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
