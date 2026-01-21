@@ -10,18 +10,13 @@ pipeline {
   githubPush()
  }
 
-/*
- parameters {
-  string(name: 'DATAPROVIDER_THREAD_COUNT', defaultValue: '2')
-  booleanParam(name: 'HEADLESS', defaultValue: true)
- }
- */
-
  environment {
   APP_REPO = 'https://github.com/VonWebsterLabajo/calculator-demo.git'
   APP_DIR = 'app'
   TEST_DIR = 'tests'
   ALLURE_VERSION = '2.29.0'
+  DATAPROVIDER_THREAD_COUNT = '3'
+  HEADLESS = 'true'
  }
 
  stages {
@@ -56,8 +51,8 @@ pipeline {
      catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
       sh '''
        mvn clean test \
-       -Dheadless=true \
-       -Ddataproviderthreadcount=1
+       -Dheadless=${HEADLESS} \
+       -Ddataproviderthreadcount=${DATAPROVIDER_THREAD_COUNT}
       '''
      }
     }
