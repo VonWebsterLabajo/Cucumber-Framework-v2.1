@@ -15,7 +15,7 @@ pipeline {
   APP_DIR = 'app'
   TEST_DIR = 'tests'
   ALLURE_VERSION = '2.29.0'
-  DATAPROVIDER_THREAD_COUNT = '2'
+  DATAPROVIDER_THREAD_COUNT = '1'
   HEADLESS = 'true'
  }
 
