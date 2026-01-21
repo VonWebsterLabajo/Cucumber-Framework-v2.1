@@ -88,6 +88,90 @@ pipeline {
    }
   }
   
+  stage('Deploy to DEV (Auto)') {
+	 when {
+	  expression { currentBuild.currentResult == 'SUCCESS' }
+	 }
+	 steps {
+	  echo "Auto-deploying to DEV repository"
+	  dir("${APP_DIR}") {
+	   withCredentials([usernamePassword(credentialsId: 'GITHUB_PAT', usernameVariable: 'GIT_USER', passwordVariable: 'GIT_PASS')]) {
+	    sh '''
+	     git config user.email "jenkins@local"
+	     git config user.name "Jenkins CI"
+	
+	     mkdir -p /tmp/deploy-src
+	     cp -r ./* /tmp/deploy-src/
+	
+	     git fetch origin
+	
+	     if git show-ref --verify --quiet refs/heads/gh-pages; then
+	       git checkout gh-pages
+	     elif git ls-remote --exit-code --heads origin gh-pages; then
+	       git checkout -b gh-pages origin/gh-pages
+	     else
+	       git checkout --orphan gh-pages
+	     fi
+	
+	     git rm -rf . || true
+	     cp -r /tmp/deploy-src/* .
+	
+	     git add .
+	     git commit -m "CD: DEV auto-deploy build ${BUILD_NUMBER}" || true
+	     git push -f https://${GIT_USER}:${GIT_PASS}@github.com/VonWebsterLabajo/calculator-demo-dev.git gh-pages
+	
+	     echo "✅ DEV deployed successfully"
+	    '''
+	   }
+	  }
+	 }
+	}
+	
+	stage('Deploy to PROD (Manual)') {
+	 when {
+	  expression { currentBuild.currentResult == 'SUCCESS' }
+	 }
+	 steps {
+	  timeout(time: 15, unit: 'MINUTES') {
+	   input message: 'Deploy to PROD GitHub Pages?', ok: 'Deploy Now'
+	  }
+	
+	  dir("${APP_DIR}") {
+	   withCredentials([usernamePassword(credentialsId: 'GITHUB_PAT', usernameVariable: 'GIT_USER', passwordVariable: 'GIT_PASS')]) {
+	    sh '''
+	     git config user.email "jenkins@local"
+	     git config user.name "Jenkins CI"
+	
+	     mkdir -p /tmp/deploy-src
+	     cp -r ./* /tmp/deploy-src/
+	
+	     git fetch origin
+	
+	     if git show-ref --verify --quiet refs/heads/gh-pages; then
+	       git checkout gh-pages
+	     elif git ls-remote --exit-code --heads origin gh-pages; then
+	       git checkout -b gh-pages origin/gh-pages
+	     else
+	       git checkout --orphan gh-pages
+	     fi
+	
+	     git rm -rf . || true
+	     cp -r /tmp/deploy-src/* .
+	
+	     git add .
+	     git commit -m "CD: PROD manual-deploy build ${BUILD_NUMBER}" || true
+	     git push -f https://${GIT_USER}:${GIT_PASS}@github.com/VonWebsterLabajo/calculator-demo-prod.git gh-pages
+	
+	     echo "✅ PROD deployed successfully"
+	    '''
+	   }
+	  }
+	 }
+	}
+
+
+  
+  /* Same Repo Deployment
   stage('Deploy to GitHub Pages') {
 	 when {
 	  expression { currentBuild.currentResult == 'SUCCESS' }
@@ -129,6 +213,7 @@ pipeline {
 	  }
 	 }
 	}
+	*/
  }
  
  post {
